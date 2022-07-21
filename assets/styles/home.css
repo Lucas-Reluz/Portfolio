@@ -1,0 +1,127 @@
+body {
+    animation: fade;
+    animation-duration: 2s;
+    background-color: #282634 !important;
+}
+
+.nav-link:hover {
+    color: rgb(206, 204, 199) !important;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    transition: ease-in-out 0.5s !important;
+}
+
+
+
+#nav1 {
+    background-image: linear-gradient(45deg, #282634 0%, #4c8db3d6 55%, #09498e 90%);
+}
+
+.sobrediv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#imgSobre {
+    width: 350px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 1px black);
+    display: flex;
+    ---neon: #22afc8;
+    animation: go-back 2s, neon 2s alternate infinite;
+    transition: transform 2s;
+}
+
+.tlSobre {
+    display: flex;
+    justify-content: center;
+    display: none;
+    ---neon: #22afc8;
+    animation: go-back 4s, neon 4s alternate infinite;
+    transition: transform 4s;
+    color: #a1a6aa;
+}
+
+.sobrediv,
+p {
+    color: rgb(234, 230, 230);
+    margin: 5px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(177, 55, 55);
+}
+
+
+.linha {
+    border: 1px solid black;
+    bottom: 10px;
+    margin-top: 6%;
+}
+
+.linha2 {
+    border: 1px solid black;
+}
+
+.redes {
+    cursor: pointer;
+}
+
+.footerH {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #a1a6aa;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 var(---neon));
+    }
+
+    to {
+        filter: drop-shadow(0 0 30px var(---neon));
+    }
+}
+
+/*     Responsividade    */
+@media screen and (max-width: 700px) {
+    #imgSobre {
+        display: none;
+    }
+
+    .sobrediv,
+    p {
+        text-align: justify;
+        font-size: 14px;
+        margin: 0;
+        color: rgb(234, 230, 230);
+    }
+
+    .tlSobre {
+        display: flex;
+    }
+
+    .sobrediv {
+        display: block;
+    }
+}
