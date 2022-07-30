@@ -1,0 +1,23 @@
+.cor-barra3{
+    flex-wrap: wrap;
+}
+
+.MuiAppBar-colorPrimary {
+    background: linear-gradient(135deg, #07756f 0%,#224246 50%,#07756f 100%); 
+}
+
+.MuiTypography-body1{
+    font-size: 20px !important;
+}
+
+.link-paginas{
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    transition: ease-in-out 0.5s;
+}
+
+.link-paginas:hover {
+   transform: scale(1.1,1.1);
+    color: rgb(10, 207, 222);
+}
