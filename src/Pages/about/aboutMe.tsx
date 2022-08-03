@@ -25,7 +25,7 @@ function About() {
                     </Grid>
                 </Box>
                 <hr className='linha' />
-                <h1 className='titulos'>HARD SKILLS</h1>
+                <h1 className='titulos'>Hard Skills</h1>
                 <Box className='box-sobre'>
                     <Grid md={4} className='sobreNos'>
                         <h2>C#</h2>
@@ -81,7 +81,7 @@ function About() {
                     </Grid>
                 </Box>
                 <hr className='linha' />
-                <h1 className='titulos'>SOFT SKILLS</h1>
+                <h1 className='titulos'>Soft Skills</h1>
                 <Box className='box-sobre'>
                     <Grid md={4} className='sobreNos'>
                         <h2>Trabalho em Equipe</h2>
