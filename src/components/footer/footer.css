@@ -1,0 +1,27 @@
+.bx1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.linha1 {
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.493);
+}
+
+.iconsIMG {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+}
+
+.iconsIMG:hover {
+    transform: rotateZ(34deg);
+}
+
+.direitos{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}

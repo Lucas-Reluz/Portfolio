@@ -3,7 +3,8 @@
 }
 
 .MuiAppBar-colorPrimary {
-    background: linear-gradient(135deg, #07756f 0%,#224246 50%,#07756f 100%); 
+    background: linear-gradient(135deg, #07756f 0%,#224246 50%,#07756f 100%);
+    position: fixed !important; 
 }
 
 .MuiTypography-body1{

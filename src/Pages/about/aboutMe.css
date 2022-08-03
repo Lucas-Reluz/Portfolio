@@ -53,10 +53,12 @@ body {
 
 .titulos {
     text-align: center;
-    text-shadow: 1px 1px 4px rgb(45, 175, 168),
-        -2px -2px 8px rgb(129, 246, 232);
+    text-shadow: 2px 2px 2px rgb(85, 255, 252),
+        -2px -2px 8px rgb(167, 255, 245);
     animation: fade2 2s;
     transition: transform 1s;
+    padding-top: 60px;
+    color: rgb(0, 0, 0);
 }
 
 @keyframes fade2 {

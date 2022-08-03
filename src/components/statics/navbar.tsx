@@ -29,16 +29,8 @@ function Navbar() {
                                     </Typography>
                                 </Box>
                             </Link>
-                                                        
-                            <Link to='/about' className='link-paginas'>
-                                <Box mx={1} paddingX={3}>
-                                    <Typography >
-                                        Habilidades 
-                                    </Typography>
-                                </Box>
-                            </Link>
                             
-                            <Link to='contato' className='link-paginas'>
+                            <Link to='/contact' className='link-paginas'>
                                 <Box mx={1} paddingX={3}>
                                     <Typography >
                                         Contato

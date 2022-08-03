@@ -2,10 +2,59 @@ body {
     background-color: rgba(194, 194, 194, 0.434);
 }
 
-.swp{
-    width: 45% !important;
+.divS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fade2 2s;
+    transition: transform 1s;
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 2px rgb(85, 255, 252),
+        -2px -2px 8px rgb(167, 255, 245);
+    padding-top: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.nomeP {
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 2px rgb(85, 255, 252),
+        -2px -2px 8px rgb(167, 255, 245);
+    color: rgb(0, 0, 0);
+}
+
+
+.swp {
+    border-radius: 2%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: sizeZ 2s linear;
+}
+
+.ds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.targets {
+    text-decoration: none;
+    transition: all 0.5s;
+    color: rgba(7, 80, 112, 0.894);
+}
+
+.targets:hover {
+    color: rgb(0, 242, 255);
+}
 
 @keyframes fade {
     from {
@@ -14,5 +63,33 @@ body {
 
     to {
         opacity: 1;
+    }
+}
+
+@keyframes sizeZ {
+    0% {
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .swp {
+        width: 400px;
+        height: 250px;
+    }
+
+    .css-rhgi4t {
+        width: 300px !important;
+    }
+
+    .css-ix1f03-MuiTypography-root {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .swp {
+        height: 400px;
     }
 }

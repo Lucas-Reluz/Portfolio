@@ -1,0 +1,26 @@
+.swiper{
+    padding: 32px;
+}
+
+.swiper-slide.swp.swiper-slide-active{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #3fcdc6;
+}
+
+.swiper-button-prev{
+    color: #07756f ;
+}
+
+.swiper-button-next{
+    color: #07756f;
+}

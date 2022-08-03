@@ -5,6 +5,7 @@ import Ring from './components/ring/ring';
 import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
 import About from './Pages/about/aboutMe';
 import Projects from './Pages/projects/projects';
+import Contact from './Pages/contacts/contacts';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Ring/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/projects" element={<Projects/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
     </Router>
   );
