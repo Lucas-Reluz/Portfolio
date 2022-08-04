@@ -29,6 +29,11 @@ body {
     color: rgb(0, 0, 0);
 }
 
+.descP {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
 
 .swp {
     border-radius: 2%;
@@ -78,6 +83,7 @@ body {
         width: 400px;
         height: 250px;
     }
+
 
     .css-rhgi4t {
         width: 400px !important;

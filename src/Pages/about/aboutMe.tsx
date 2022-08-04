@@ -14,14 +14,14 @@ function About() {
                 <h1 className='titulos'>Sobre Mim</h1>
                 <Box className='box-sobre'>
                     <Grid md={6} className='sobreNos'>
-                        <Typography >
-                            Tenho 19 anos, sempre fui muito apaixonado por tecnologia e jogos, comecei a ter contato com programação em 2021, e em 2022 comecei a desenvolver muito minhas soft skills e hard skills. Sou muito persistente, proativo e criativo, tenha uma ótima comunicação e trabalho muito bem em equipe.
+                        <p className='txtSobre' >
+                            Tenho 19 anos, sempre fui muito apaixonado por tecnologia e jogos, comecei a ter contato com programação em 2021, e em 2022 comecei a desenvolver muito minhas soft skills e hard skills. Sou muito persistente, proativo e criativo, tenho uma ótima comunicação e trabalho muito bem em equipe.
                             Atualmente venho estudando sobre C#, SQL, TypeScript, JavaScript, CSS, HTML, React, .NET, POO.
                             Tenho fácil aprendizagem e adaptação e estou buscando minha primeira oportunidade como desenvolvedor.
-                        </Typography>
+                        </p>
                     </Grid>
                     <Grid md={6}>
-                        <img src="https://i.imgur.com/3JYnzE1.jpg" alt="" className='imgs-sobre' />
+                        <img src="https://i.imgur.com/2dT2j1U.jpg" alt="" className='imgs-sobre' />
                     </Grid>
                 </Box>
                 <hr className='linha' />
@@ -136,7 +136,7 @@ function About() {
                         </Stack>
                     </Grid>
                 </Box>
-                <Footer/>
+                <Footer />
             </Container>
 
         </>

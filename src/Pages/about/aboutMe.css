@@ -23,7 +23,6 @@ body {
 
 .sobreNos {
     font-weight: 450;
-    text-align: justify;
     margin-top: 30px;
     color: rgb(41, 40, 40);
     justify-content: center;
@@ -31,6 +30,13 @@ body {
     display: flex;
     animation: fade2 2s;
     transition: transform 1s;
+}
+
+.txtSobre{
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: -1.3px;
+    color: rgb(0, 0, 0);
 }
 
 .primeira-img {
@@ -45,7 +51,7 @@ body {
 .imgs-sobre {
     max-width: 400px;
     max-height: 400px;
-    border-radius: 10%;
+    border-radius: 50%;
     box-shadow: 6px 3px 3px rgb(66, 66, 66);
     animation: fade2 2s;
     transition: transform 1s;

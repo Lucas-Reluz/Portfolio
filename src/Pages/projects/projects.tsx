@@ -44,26 +44,30 @@ function Projects() {
                         <div className="divS">
                             <img onClick={handleOpen} className="swp" src="https://i.imgur.com/gWzn7J4.png" alt="XepaCommerce, ecommerce feito através do bootcamp da Generation Brasil" />
                             <h2 className="nomeP">Ecommerce feito com base na ODS 2 da ONU</h2>
+                            <p className="descP">CLIQUE NA IMAGEM PARA VER MAIS SOBRE!</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="divS">
                             <img onClick={handleOpen} className="swp" src="https://i.imgur.com/wh59vwC.png" alt="Recriação da Página da Netflix atráves do bootcamp da DIO" />
-                            <h2 className="nomeP">Recriação Página Netflix</h2></div>
+                            <h2 className="nomeP">Recriação Página Netflix</h2><p className="descP">CLIQUE NA IMAGEM PARA VER MAIS SOBRE!</p></div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="divS"><img onClick={handleOpen} className="swp" src="https://i.imgur.com/q0GGTD3.png" alt="Recriação da Página da Netflix atráves do bootcamp da DIO" />
                             <h2 className="nomeP">Recriação da Página de Login Instagram</h2>
+                            <p className="descP">CLIQUE NA IMAGEM PARA VER MAIS SOBRE!</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="divS"><img onClick={handleOpen} className="swp" src="https://i.imgur.com/yXrFK8h.png" alt="Jogo da Cobrinha, feito atráves do bootcamp da DIO" />
                             <h2 className="nomeP">Desenvolvido Jogo da Cobrinha</h2>
+                            <p className="descP">CLIQUE NA IMAGEM PARA VER MAIS SOBRE!</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="divS"><img onClick={handleOpen} className="swp" src="https://i.imgur.com/kF8Erkw.gif" alt="Jogo da Cobrinha, feito atráves do bootcamp da DIO" />
                             <h2 className="nomeP">InfoTech - Em Breve!!!</h2>
+                            <p className="descP">CLIQUE NA IMAGEM PARA VER MAIS SOBRE!</p>
                         </div>
                     </SwiperSlide>
                 </Slider>
@@ -76,10 +80,10 @@ function Projects() {
                     aria-describedby="modal-modal-description"
                 >
                     <Box sx={style}>
-                        <Typography id="modal-modal-title" variant="h6" component="h3">
+                        <Typography className="modaltl" id="modal-modal-title" variant="h6" component="h3">
                             <h4>Descrição Maior dos Projetos</h4>
                         </Typography>
-                        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                        <Typography className="modaltxt" id="modal-modal-description" sx={{ mt: 2 }}>
                             A maioria dos projetos foram feitos durante os Bootcamps da Digital Innovation One e da Generation Brasil, foi onde eu aprimorei muito minhas hard skills e soft skills. O XepaCommerce em especial, foi um projeto desenvolvido em grupo com base na ODS 2 da ONU, foi onde construímos desde a API com C#, .NET, ASP.NET, ao Front em React com TypeScript.
                             <ul>
                                 <li className="lSites"><a className="targets" target="_blank" href="https://projeto-integrador-front-end.vercel.app/home">XepaCommerce</a></li>
@@ -92,7 +96,7 @@ function Projects() {
                     </Box>
                 </Modal>
             </div>
-            <Footer/>
+            <Footer />
         </>
     )
 }
