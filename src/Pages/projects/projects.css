@@ -78,7 +78,7 @@ body {
 }
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 900px) {
     .swp {
         width: 400px;
         height: 250px;
@@ -90,13 +90,15 @@ body {
 
     .MuiBox-root.css-rhgi4t {
         width: 400px !important;
-        height: 400px;
+        height: auto;
+        overflow: hidden !important;
     }
 
     .css-ix1f03-MuiTypography-root {
         font-size: 13px !important;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
