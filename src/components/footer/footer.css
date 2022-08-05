@@ -12,11 +12,11 @@
     width: 100px;
     height: 100px;
     cursor: pointer;
-    transition: ease-in-out 1s;
+    transition: ease-in-out 2s;
 }
 
 .iconsIMG:hover {
-    transform: rotateZ(34deg);
+    transform: rotate(360deg);
 }
 
 .direitos{
