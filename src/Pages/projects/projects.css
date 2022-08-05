@@ -88,13 +88,15 @@ body {
         font-size: 11px !important;
     }
 
-    .css-rhgi4t {
+    .MuiBox-root.css-rhgi4t {
         width: 400px !important;
-        height: 360px;
+        height: 400px;
     }
 
     .css-ix1f03-MuiTypography-root {
         font-size: 13px !important;
+        display: flex;
+        flex-direction: column;
     }
 }
 
