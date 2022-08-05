@@ -84,6 +84,9 @@ body {
         height: 250px;
     }
 
+    .MuiTypography-root.MuiTypography-body1.txtM.css-ix1f03-MuiTypography-root {
+        font-size: 11px !important;
+    }
 
     .css-rhgi4t {
         width: 400px !important;

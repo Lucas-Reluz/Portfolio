@@ -80,10 +80,10 @@ function Projects() {
                     aria-describedby="modal-modal-description"
                 >
                     <Box sx={style}>
-                        <Typography className="modaltl" id="modal-modal-title" variant="h6" component="h3">
+                        <Typography id="modal-modal-title" variant="h5">
                             <h4>Descrição Maior dos Projetos</h4>
                         </Typography>
-                        <Typography className="modaltxt" id="modal-modal-description" sx={{ mt: 2 }}>
+                        <Typography className="txtM" id="modal-modal-description" sx={{ mt: 2 }}>
                             A maioria dos projetos foram feitos durante os Bootcamps da Digital Innovation One e da Generation Brasil, foi onde eu aprimorei muito minhas hard skills e soft skills. O XepaCommerce em especial, foi um projeto desenvolvido em grupo com base na ODS 2 da ONU, foi onde construímos desde a API com C#, .NET, ASP.NET, ao Front em React com TypeScript.
                             <ul>
                                 <li className="lSites"><a className="targets" target="_blank" href="https://projeto-integrador-front-end.vercel.app/home">XepaCommerce</a></li>
